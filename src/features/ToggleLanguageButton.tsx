@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux';
 import { RootState } from '../state/store';
 import { Language_E, toggleLanguage as toggleLanguageAC } from '../state/Reducers/CommentsReducer';
-import ToggleButton from '../ui/ToggleButton';
+import FilledButton from '../ui/FilledButton';
 
 type Props_T = {
     toggleLanguageAC: () => void,
@@ -13,9 +13,8 @@ class ToggleLanguageButton extends React.Component<Props_T> {
 
     render() {
         const currentLanguage = this.props.currentLanguage
-        console.log(currentLanguage)
         return <div onClick={() => this.props.toggleLanguageAC()}>
-            <ToggleButton value={currentLanguage} />
+            <FilledButton text={currentLanguage}/>
         </div>
     }
 }

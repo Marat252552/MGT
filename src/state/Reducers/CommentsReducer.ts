@@ -1,4 +1,4 @@
-import { PayloadAction, createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit'
 import data from '../data.json'
 
 export type Comment_T = {
@@ -38,9 +38,9 @@ let initialState: initialState_T = {
     en: ParseObjectToArray(Language_E.en),
     ru: ParseObjectToArray(Language_E.ru)
 }
-// Создаем slice
+
 const CommentsSlice = createSlice({
-    name: 'user',
+    name: 'comments',
     initialState,
     reducers: {
         toggleLanguage(state) {

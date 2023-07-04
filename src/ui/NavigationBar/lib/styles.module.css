@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items: center;
+}
+
+.pageButton {
+    box-sizing: border-box;
+    padding: 5px;
+    cursor: pointer
+}
+
+.pageButton_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
