@@ -1,0 +1,10 @@
+.container {
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+    font-family: Montserrat;
+    color: white;
+    cursor: pointer
+}
+

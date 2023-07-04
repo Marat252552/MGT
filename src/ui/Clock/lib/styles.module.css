@@ -1,0 +1,15 @@
+.number {
+    font-size: 60px;
+    color: white;
+    font-family: Montserrat;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.numberContainer {
+    /* width: 70px; */
+}
